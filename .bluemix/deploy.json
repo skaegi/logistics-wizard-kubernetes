@@ -187,7 +187,7 @@
     },
     {
       "type": "password",
-      "title": "Bluemix API key (Obtain one using 'bx iam api-key-create my-new-key')",
+      "title": "IBM Cloud API key (Obtain one using 'bx iam api-key-create my-new-key')",
       "description": "IBM Cloud API key (Obtain one using 'bx iam api-key-create my-new-key')",
       "key": "deploy-api-key"
     },
