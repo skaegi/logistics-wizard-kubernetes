@@ -39,7 +39,7 @@ services:
           CONTAINER_REGION_ID: "{{form.pipeline.parameters.container-region}}"
           CONTAINER_ORG_NAME: "{{form.pipeline.parameters.container-organization}}"
           CONTAINER_SPACE_NAME: "{{form.pipeline.parameters.container-space}}"
-          BLUEMIX_API_KEY: "{{form.pipeline.parameters.deploy-bluemix-api-key}}"
+          BLUEMIX_API_KEY: "{{form.pipeline.parameters.deploy-api-key}}"
           CLUSTER_NAME: "{{form.pipeline.parameters.deploy-cluster-name}}"
           REGION_ID: "{{form.pipeline.parameters.selected-region}}"
           ORG_NAME: "{{form.pipeline.parameters.selected-organization}}"
@@ -69,7 +69,7 @@ services:
           CONTAINER_REGION_ID: "{{form.pipeline.parameters.container-region}}"
           CONTAINER_ORG_NAME: "{{form.pipeline.parameters.container-organization}}"
           CONTAINER_SPACE_NAME: "{{form.pipeline.parameters.container-space}}"
-          BLUEMIX_API_KEY: "{{form.pipeline.parameters.deploy-bluemix-api-key}}"
+          BLUEMIX_API_KEY: "{{form.pipeline.parameters.deploy-api-key}}"
           CLUSTER_NAME: "{{form.pipeline.parameters.deploy-cluster-name}}"
           REGION_ID: "{{form.pipeline.parameters.selected-region}}"
           ORG_NAME: "{{form.pipeline.parameters.selected-organization}}"
@@ -97,7 +97,7 @@ services:
         env:
           REPO: webui-repo
           REPO_BRANCH: "{{form.pipeline.parameters.webui-branch-name}}"
-          BLUEMIX_API_KEY: "{{form.pipeline.parameters.deploy-bluemix-api-key}}"
+          BLUEMIX_API_KEY: "{{form.pipeline.parameters.deploy-api-key}}"
           CLUSTER_NAME: "{{form.pipeline.parameters.deploy-cluster-name}}"
           CF_APP_NAME: "{{form.pipeline.parameters.webui-app-name}}"
           SPACE_NAME: "{{form.pipeline.parameters.selected-space}}"
@@ -125,7 +125,7 @@ services:
         env:
           REPO: recommendation-repo
           REPO_BRANCH: "{{form.pipeline.parameters.recommendation-branch-name}}"
-          BLUEMIX_API_KEY: "{{form.pipeline.parameters.deploy-bluemix-api-key}}"
+          BLUEMIX_API_KEY: "{{form.pipeline.parameters.deploy-api-key}}"
           CLUSTER_NAME: "{{form.pipeline.parameters.deploy-cluster-name}}"
           PACKAGE_NAME: "{{form.pipeline.parameters.recommendation-package-name}}"
           CLOUDANT_DATABASE: "recommendations"
