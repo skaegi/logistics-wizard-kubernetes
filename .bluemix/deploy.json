@@ -93,6 +93,12 @@
       "key": "webui-app-name"
     },
     {
+      "type": "password",
+      "title": "IBM Cloud API key (Obtain one using 'bx iam api-key-create my-new-key')",
+      "description": "IBM Cloud API key (Obtain one using 'bx iam api-key-create my-new-key')",
+      "key": "api-key"
+    },
+    {
       "type": "table",
       "columnCount": 3,
       "widths": ["33%", "33%", "33%"],
@@ -184,12 +190,6 @@
           "title": "Specify the name of an existing cluster where to deploy the service.s The Bluemix API key is used to access the IBM Container Service API and interact with the cluster."
         }
       ]
-    },
-    {
-      "type": "password",
-      "title": "IBM Cloud API key (Obtain one using 'bx iam api-key-create my-new-key')",
-      "description": "IBM Cloud API key (Obtain one using 'bx iam api-key-create my-new-key')",
-      "key": "api-key"
     },
     {
       "type": "text",
