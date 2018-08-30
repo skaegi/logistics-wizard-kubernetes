@@ -20,7 +20,7 @@
       "description": "Name of the WEBUI App",
       "type": "string"
     },
-    "deploy-api-key": {
+    "api-key": {
       "description": "IBM Cloud API key (Obtain one using 'bx iam api-key-create my-new-key')",
       "type": "string"
     },
@@ -62,7 +62,7 @@
     "webui-app-name",
     "container-region", "container-organization", "container-space",
     "deploy-cluster-name",
-    "deploy-api-key",
+    "api-key",
     "erp-branch-name", "controller-branch-name",
     "webui-branch-name", "recommendation-branch-name"
   ],
@@ -189,7 +189,7 @@
       "type": "password",
       "title": "IBM Cloud API key (Obtain one using 'bx iam api-key-create my-new-key')",
       "description": "IBM Cloud API key (Obtain one using 'bx iam api-key-create my-new-key')",
-      "key": "deploy-api-key"
+      "key": "api-key"
     },
     {
       "type": "text",
